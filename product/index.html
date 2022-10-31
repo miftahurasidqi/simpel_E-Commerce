@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" type="image/jpeg" href="../assets/images/icon/keranjang.jpeg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <title>PRODUCT -Mifta Shope</title>
+  </head>
+
+  <body>
+    <!-- nav start -->
+    <header>
+      <div class="brand">
+        <img src="assets/images/anteraja.png" alt="" />
+        <h2>Mifta Shope</h2>
+      </div>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link">
+              <span class="nav-icon fa fa-home"></span>
+              <span class="nav-text">HOME</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">
+              <span class="nav-icon fa fa-cart-plus"></span>
+              <span class="nav-text">PRODUCT</span>
+              <div class="line"></div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="../category/" class="nav-link">
+              <span class="nav-icon fa fa-list"></span>
+              <span class="nav-text">CATEGORY</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="../contact/" class="nav-link">
+              <span class="nav-icon fa fa-contact-card"></span>
+              <span class="nav-text">CONTACT</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- nav end -->
+
+    <!-- content stsrt -->
+    <main>
+      <div class="container">
+        <h2 class="title">Product List</h2>
+        <div class="row">
+          <div class="col">
+            <img src="../assets/images/jpg/product-12.jpg" />
+            <h4>Training Nike</h4>
+            <p>Rp. 100.000</p>
+            <div class="buy" onclick="buy('Training Nike', 100)">
+              <span>Buy Now</span>
+              <span class="buy-icon fa fa-cart-plus"></span>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="../assets/images/jpg/product-11.jpg" />
+            <h4>Sepatu Abu-Abu</h4>
+            <p>Rp. 150.000</p>
+            <div class="buy" onclick="buy('Sepatu Abu-Abu', 100)">
+              <span>Buy Now</span>
+              <span class="buy-icon fa fa-cart-plus"></span>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="../assets/images/jpg/product-10.jpg" />
+            <h4>Sepatu Hitam</h4>
+            <p>Rp. 250.000</p>
+            <div class="buy" onclick="buy('Sepatu Hitam', 250)">
+              <span>Buy Now</span>
+              <span class="buy-icon fa fa-cart-plus"></span>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="../assets/images/jpg/product-9.jpg" />
+            <h4>Jam Tangan Kulit</h4>
+            <p>Rp. 150.000</p>
+            <div class="buy" onclick="buy('Jam Tangan Kulit', 150)">
+              <span>Buy Now</span>
+              <span class="buy-icon fa fa-cart-plus"></span>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="../assets/images/jpg/product-8.jpg" />
+            <h4>Jam Tanagan Anti Air</h4>
+            <p>Rp. 180.000</p>
+            <div class="buy" onclick="buy('Jam Tanagn Anti Air', 180)">
+              <span>Buy Now</span>
+              <span class="buy-icon fa fa-cart-plus"></span>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="../assets/images/jpg/product-7.jpg" />
+            <h4>Kaos Kaki</h4>
+            <p>Rp. 20.000</p>
+            <div class="buy" onclick="buy('Kaos Kaki', 20)">
+              <span>Buy Now</span>
+              <span class="buy-icon fa fa-cart-plus"></span>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="../assets/images/jpg/product-6.jpg" />
+            <h4>Kaos Pumma Hitam</h4>
+            <p>Rp. 100.000</p>
+            <div class="buy" onclick="buy('Kaos Pumma Hitam', 100)">
+              <span>Buy Now</span>
+              <span class="buy-icon fa fa-cart-plus"></span>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="../assets/images/jpg/product-5.jpg" />
+            <h4>Sepatu Abu-Abu</h4>
+            <p>Rp. 180.000</p>
+            <div class="buy" onclick="buy('Sepatu Abu-Abu', 100)">
+              <span>Buy Now</span>
+              <span class="buy-icon fa fa-cart-plus"></span>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="../assets/images/jpg/product-4.jpg" />
+            <h4>Kaos Pumma Biru</h4>
+            <p>Rp. 120.000</p>
+            <div class="buy" onclick="buy('Kaos Pumma Biru', 120)">
+              <span>Buy Now</span>
+              <span class="buy-icon fa fa-cart-plus"></span>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="../assets/images/jpg/product-3.jpg" />
+            <h4>Training Nike Abu-Abu</h4>
+            <p>Rp. 110.000</p>
+            <div class="buy" onclick="buy('Training Nike Abu-Abu', 100)">
+              <span>Buy Now</span>
+              <span class="buy-icon fa fa-cart-plus"></span>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="../assets/images/jpg/product-2.jpg" />
+            <h4>Sepatu Hitam</h4>
+            <p>Rp. 150.000</p>
+            <div class="buy" onclick="buy('Sepatu Hitam', 150)">
+              <span>Buy Now</span>
+              <span class="buy-icon fa fa-cart-plus"></span>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="../assets/images/jpg/product-1.jpg" />
+            <h4>Kaos Pumma Merah</h4>
+            <p>Rp. 110.000</p>
+            <div class="buy" onclick="buy('Kaos Pumma Merah', 110)">
+              <span>Buy Now</span>
+              <span class="buy-icon fa fa-cart-plus"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- conten end -->
+
+    <!-- footer start -->
+    <footer>
+      <p>Copyright © <span id="year"></span> | MIFTA_SHOP</p>
+    </footer>
+    <!-- footer End -->
+
+    <script src="../assets/sources.js"></script>
+  </body>
+</html>
